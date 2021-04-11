@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="nekro-engine" />
+		<Option pch_mode="2" />
+		<Option compiler="x86_64-810-release-posix-seh-rt_v6-rev0" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/nekro-engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="x86_64-810-release-posix-seh-rt_v6-rev0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/nekro-engine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="x86_64-810-release-posix-seh-rt_v6-rev0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pedantic-errors" />
+			<Add option="-pedantic" />
+			<Add option="-Wextra" />
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-g" />
+			<Add option="-fms-extensions" />
+			<Add option="-DSDL_VULKAN_RENDERING" />
+			<Add option="-DSDL_INPUT" />
+			<Add directory="lib/SDL2-2.0.12/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="lib/glm" />
+			<Add directory="lib/VulkanSDK/1.2.141.2/Include" />
+			<Add directory="lib/DevIL Windows SDK/include" />
+			<Add directory="lib/cJSON/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lvulkan-1 -lDevIL -lILU -lcjson" />
+			<Add directory="lib/SDL2-2.0.12/x86_64-w64-mingw32/lib" />
+			<Add directory="lib/VulkanSDK/1.2.141.2/Lib" />
+			<Add directory="lib/DevIL Windows SDK/lib/x64/Release" />
+			<Add directory="lib/cJSON/lib" />
+		</Linker>
+		<Unit filename="src/asteroids/asteroids.cpp" />
+		<Unit filename="src/asteroids/asteroids.h" />
+		<Unit filename="src/asteroids/string_util.cpp" />
+		<Unit filename="src/asteroids/string_util.h" />
+		<Unit filename="src/input/input.cpp" />
+		<Unit filename="src/input/input.h" />
+		<Unit filename="src/input/sdl_input.cpp" />
+		<Unit filename="src/input/sdl_input.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/rendering/image_loader.cpp" />
+		<Unit filename="src/rendering/image_loader.h" />
+		<Unit filename="src/rendering/material.h" />
+		<Unit filename="src/rendering/mesh_loader.cpp" />
+		<Unit filename="src/rendering/mesh_loader.h" />
+		<Unit filename="src/rendering/renderer.cpp" />
+		<Unit filename="src/rendering/renderer.h" />
+		<Unit filename="src/rendering/rendering_util.h" />
+		<Unit filename="src/rendering/sdl_window.cpp" />
+		<Unit filename="src/rendering/sdl_window.h" />
+		<Unit filename="src/rendering/vulkan.cpp" />
+		<Unit filename="src/rendering/vulkan.h" />
+		<Unit filename="src/tileset.h" />
+		<Unit filename="src/time/sdl_time.cpp" />
+		<Unit filename="src/time/sdl_time.h" />
+		<Unit filename="src/time/time.cpp" />
+		<Unit filename="src/time/time.h" />
+		<Unit filename="src/util/math.cpp" />
+		<Unit filename="src/util/math.h" />
+		<Unit filename="src/util/quaternion.h" />
+		<Unit filename="src/util/random.cpp" />
+		<Unit filename="src/util/random.h" />
+		<Unit filename="src/util/resource_pool.h" />
+		<Unit filename="src/util/typedef.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

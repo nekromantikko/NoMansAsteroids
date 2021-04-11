@@ -1,0 +1,1806 @@
+# depslib dependency file v1.0
+1617455853 source:d:\work\gamedev\nekro-engine\src\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_vulkan.h>
+	<glm/gtx/rotate_vector.hpp>
+	"input/input.h"
+	"rendering/renderer.h"
+	"time/time.h"
+	"rendering/image_loader.h"
+	"asteroids/asteroids.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\close_code.h
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894277 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894278 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_vulkan.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan.h
+	"vk_platform.h"
+	"vulkan_core.h"
+	"vulkan_android.h"
+	<zircon/types.h>
+	"vulkan_fuchsia.h"
+	"vulkan_ios.h"
+	"vulkan_macos.h"
+	"vulkan_metal.h"
+	"vulkan_vi.h"
+	<wayland-client.h>
+	"vulkan_wayland.h"
+	<windows.h>
+	"vulkan_win32.h"
+	<xcb/xcb.h>
+	"vulkan_xcb.h"
+	<X11/Xlib.h>
+	"vulkan_xlib.h"
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	"vulkan_xlib_xrandr.h"
+	<ggp_c/vulkan_types.h>
+	"vulkan_ggp.h"
+	"vulkan_beta.h"
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vk_platform.h
+	<stddef.h>
+	<stdint.h>
+
+1586332738 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_core.h
+	"vk_platform.h"
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_android.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_fuchsia.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_ios.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_macos.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_metal.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_vi.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_wayland.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_win32.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_xcb.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_xlib.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_xlib_xrandr.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_ggp.h
+
+1586332736 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.135.0\include\vulkan\vulkan_beta.h
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_sized.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_sized.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1585558029 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<CL/sycl.hpp>
+	<limits>
+	<cstdint>
+	<type_traits>
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	"neon.h"
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\simd\neon.h
+	<arm_neon.h>
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\_swizzle.hpp
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\_swizzle_func.hpp
+
+1540995841 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1533818821 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1575900214 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec4_simd.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_int4_sized.hpp
+	"../ext/vector_int4.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1554373468 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\scalar_int_sized.hpp
+	"../detail/setup.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1586700235 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_uint4_sized.hpp
+	"../ext/vector_uint4.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\scalar_uint_sized.hpp
+	"../detail/setup.hpp"
+
+1617454864 source:d:\work\gamedev\nekro-engine\src\input\input.cpp
+	"input.h"
+	"sdl_input.h"
+	<cmath>
+
+1617454802 d:\work\gamedev\nekro-engine\src\input\input.h
+	"../util/typedef.h"
+
+1588414158 d:\work\gamedev\nekro-engine\src\util\typedef.h
+	<cstdint>
+
+1617454193 d:\work\gamedev\nekro-engine\src\input\sdl_input.h
+	"input.h"
+	<SDL.h>
+
+1617454957 source:d:\work\gamedev\nekro-engine\src\input\sdl_input.cpp
+	"sdl_input.h"
+	<iostream>
+
+1618154429 source:d:\work\gamedev\nekro-engine\src\rendering\renderer.cpp
+	"renderer.h"
+	"vulkan.h"
+	"sdl_window.h"
+	<iostream>
+	<thread>
+	<algorithm>
+	"image_loader.h"
+	"mesh_loader.h"
+	"../util/math.h"
+	"../util/resource_pool.h"
+
+1618156888 d:\work\gamedev\nekro-engine\src\rendering\renderer.h
+	<glm/glm.hpp>
+	"../util/typedef.h"
+	"rendering_util.h"
+	"material.h"
+
+1588704037 d:\work\gamedev\nekro-engine\src\rendering\sdl_vulkan.h
+	"renderer.h"
+	"rendering_util.h"
+
+1588622301 source:d:\work\gamedev\nekro-engine\src\rendering\sdl_vulkan.cpp
+	"sdl_vulkan.h"
+	<SDL.h>
+	<SDL_vulkan.h>
+	<vulkan/vulkan.h>
+	<iostream>
+	<fstream>
+	"../util/typedef.h"
+	"rendering_util.h"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\_fixes.hpp
+	<cmath>
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_sized.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_sized.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1540995841 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1540995841 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_int2_sized.hpp
+	"../ext/vector_int2.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_uint2_sized.hpp
+	"../ext/vector_uint2.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_sized.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_sized.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1540995841 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1540995841 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_int3_sized.hpp
+	"../ext/vector_int3.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_uint3_sized.hpp
+	"../ext/vector_uint3.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat2x3.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat2x4.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat3x2.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1586701533 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat3x4.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat4x2.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1554373468 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat4x3.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_mat4x4_simd.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1540995841 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1586702003 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1533818821 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_vector_relational_simd.inl
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\_vectorize.hpp
+
+1533818821 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1531731968 d:\work\gamedev\nekro-engine\lib\glm\glm\simd\exponential.h
+	"platform.h"
+
+1556285066 d:\work\gamedev\nekro-engine\lib\glm\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1575900214 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1554373468 d:\work\gamedev\nekro-engine\lib\glm\glm\simd\common.h
+	"platform.h"
+
+1585558029 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1525695782 d:\work\gamedev\nekro-engine\lib\glm\glm\simd\geometric.h
+	"common.h"
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1525695782 d:\work\gamedev\nekro-engine\lib\glm\glm\simd\matrix.h
+	"geometric.h"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1464685461 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_trigonometric_simd.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1554373468 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_half.inl
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_packing_simd.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1525695782 d:\work\gamedev\nekro-engine\lib\glm\glm\simd\integer.h
+
+1618147140 d:\work\gamedev\nekro-engine\src\rendering\rendering_util.h
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	"../util/quaternion.h"
+
+1588775302 source:d:\work\gamedev\nekro-engine\src\rendering\vulkan\vulkan_mesh.cpp
+	"vulkan_mesh.h"
+	"../../util/typedef.h"
+
+1588775258 d:\work\gamedev\nekro-engine\src\rendering\vulkan\vulkan_mesh.h
+	<vulkan/vulkan.h>
+
+1589046436 source:d:\work\gamedev\nekro-engine\src\rendering\vulkan\sdl_vulkan.cpp
+	"sdl_vulkan.h"
+	<SDL.h>
+	<SDL_vulkan.h>
+	<vulkan/vulkan.h>
+	<iostream>
+	<fstream>
+	<vector>
+	"../../util/typedef.h"
+	"../rendering_util.h"
+	<chrono>
+
+1589048077 d:\work\gamedev\nekro-engine\src\rendering\vulkan\sdl_vulkan.h
+	"../renderer.h"
+	"../rendering_util.h"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\scalar_constants.inl
+	<limits>
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\gtc\constants.inl
+
+1586699936 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_projection.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1585558029 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_clip_space.inl
+
+1537176751 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1554373468 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\matrix_transform.inl
+
+1535531570 d:\work\gamedev\nekro-engine\lib\glm\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1611874187 source:d:\work\gamedev\nekro-engine\src\rendering\image_loader.cpp
+	"image_loader.h"
+	<IL/il.h>
+	<IL/ilu.h>
+	<cstdlib>
+	<cstring>
+
+1611777496 d:\work\gamedev\nekro-engine\src\rendering\image_loader.h
+	"../util/typedef.h"
+	"rendering_util.h"
+
+1589045266 d:\work\gamedev\nekro-engine\lib\devil windows sdk\include\il\il.h
+	<stdio.h>
+	<limits.h>
+	<wchar.h>
+
+1589045266 d:\work\gamedev\nekro-engine\lib\devil windows sdk\include\il\ilu.h
+	<IL/il.h>
+
+1589047304 source:d:\work\gamedev\nekro-engine\src\rendering\vulkan\vulkan_util.cpp
+	"vulkan_util.h"
+
+1589047828 d:\work\gamedev\nekro-engine\src\rendering\vulkan\vulkan_util.h
+	<vulkan/vulkan.h>
+	"../../util/typedef.h"
+
+1618154121 source:d:\work\gamedev\nekro-engine\src\rendering\vulkan.cpp
+	"vulkan.h"
+	<vector>
+	<iostream>
+	<fstream>
+	"image_loader.h"
+	"../util/math.h"
+
+1618153897 d:\work\gamedev\nekro-engine\src\rendering\vulkan.h
+	<vulkan/vulkan.h>
+	"../util/typedef.h"
+	"rendering_util.h"
+	"material.h"
+	<windows.h>
+
+1589098024 d:\work\gamedev\nekro-engine\src\rendering\sdl_window.h
+	<SDL.h>
+	<SDL_vulkan.h>
+	"../util/typedef.h"
+
+1589098019 source:d:\work\gamedev\nekro-engine\src\rendering\sdl_window.cpp
+	"sdl_window.h"
+	"rendering_util.h"
+	"vulkan.h"
+
+1589122288 source:d:\work\gamedev\nekro-engine\src\time\time.cpp
+	"time.h"
+	"sdl_time.h"
+
+1589122308 d:\work\gamedev\nekro-engine\src\time\time.h
+	"../util/typedef.h"
+
+1589122317 d:\work\gamedev\nekro-engine\src\time\sdl_time.h
+	"../util/typedef.h"
+
+1589122332 source:d:\work\gamedev\nekro-engine\src\time\sdl_time.cpp
+	"sdl_time.h"
+	<SDL.h>
+	<cmath>
+
+1554373468 d:\work\gamedev\nekro-engine\lib\glm\glm\gtx\rotate_vector.hpp
+	"../gtx/transform.hpp"
+	"../gtc/epsilon.hpp"
+	"../ext/vector_relational.hpp"
+	"../glm.hpp"
+	"rotate_vector.inl"
+
+1554373468 d:\work\gamedev\nekro-engine\lib\glm\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\gtx\transform.inl
+
+1531731968 d:\work\gamedev\nekro-engine\lib\glm\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1574091105 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1540995841 d:\work\gamedev\nekro-engine\lib\glm\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1540995841 d:\work\gamedev\nekro-engine\lib\glm\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1533818822 d:\work\gamedev\nekro-engine\lib\glm\glm\gtx\rotate_vector.inl
+
+1618153513 source:d:\work\gamedev\nekro-engine\src\rendering\mesh_loader.cpp
+	"mesh_loader.h"
+	<fstream>
+	<iostream>
+	<cstring>
+	<sstream>
+	"vulkan.h"
+	<cjson/cJSON.h>
+
+1618133666 d:\work\gamedev\nekro-engine\src\rendering\mesh_loader.h
+	"../util/typedef.h"
+	"rendering_util.h"
+
+1589973915 d:\work\gamedev\nekro-engine\src\jsmn\jsmn.h
+	<stddef.h>
+
+1590141814 d:\work\gamedev\nekro-engine\lib\cjson\include\cjson\cjson.h
+	<stddef.h>
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\begin_code.h
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\close_code.h
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<arm64intr.h>
+	<arm64_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_metal.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583894369 d:\work\gamedev\nekro-engine\lib\sdl2-2.0.12\x86_64-w64-mingw32\include\sdl2\sdl_vulkan.h
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1618148160 d:\work\gamedev\nekro-engine\src\rendering\material.h
+
+1592423091 source:d:\work\gamedev\nekro-engine\src\rendering\vulkan_functions.cpp
+	"vulkan.h"
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan.h
+	"vk_platform.h"
+	"vulkan_core.h"
+	"vulkan_android.h"
+	<zircon/types.h>
+	"vulkan_fuchsia.h"
+	"vulkan_ios.h"
+	"vulkan_macos.h"
+	"vulkan_metal.h"
+	"vulkan_vi.h"
+	<wayland-client.h>
+	"vulkan_wayland.h"
+	<windows.h>
+	"vulkan_win32.h"
+	<xcb/xcb.h>
+	"vulkan_xcb.h"
+	<X11/Xlib.h>
+	"vulkan_xlib.h"
+	<X11/Xlib.h>
+	<X11/extensions/Xrandr.h>
+	"vulkan_xlib_xrandr.h"
+	<ggp_c/vulkan_types.h>
+	"vulkan_ggp.h"
+	"vulkan_beta.h"
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vk_platform.h
+	<stddef.h>
+	<stdint.h>
+
+1591325630 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_core.h
+	"vk_platform.h"
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_android.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_fuchsia.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_ios.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_macos.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_metal.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_vi.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_wayland.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_win32.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_xcb.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_xlib.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_xlib_xrandr.h
+
+1591325628 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_ggp.h
+
+1591325630 d:\work\gamedev\nekro-engine\lib\vulkansdk\1.2.141.2\include\vulkan\vulkan_beta.h
+
+1612691012 d:\work\gamedev\nekro-engine\src\util\math.h
+	<glm/glm.hpp>
+	"typedef.h"
+
+1618153428 source:d:\work\gamedev\nekro-engine\src\asteroids\asteroids.cpp
+	"asteroids.h"
+	"../input/input.h"
+	"../util/math.h"
+	"../util/random.h"
+	"../util/resource_pool.h"
+	"string_util.h"
+	<iostream>
+	<cstring>
+
+1618151540 d:\work\gamedev\nekro-engine\src\asteroids\asteroids.h
+	"../util/typedef.h"
+	"../util/quaternion.h"
+	"../rendering/renderer.h"
+
+1612633263 d:\work\gamedev\nekro-engine\src\util\quaternion.h
+	<glm/glm.hpp>
+	"typedef.h"
+
+1612691007 source:d:\work\gamedev\nekro-engine\src\util\math.cpp
+	"math.h"
+	<cmath>
+
+1612690655 d:\work\gamedev\nekro-engine\src\util\random.h
+	<glm/glm.hpp>
+	"typedef.h"
+
+1612691716 source:d:\work\gamedev\nekro-engine\src\util\random.cpp
+	"random.h"
+	<stdlib.h>
+
+1617642736 d:\work\gamedev\nekro-engine\src\asteroids\string_util.h
+	"../rendering/rendering_util.h"
+
+1618143125 source:d:\work\gamedev\nekro-engine\src\asteroids\string_util.cpp
+	"string_util.h"
+	<cstring>
+
+1618151377 d:\work\gamedev\nekro-engine\src\util\resource_pool.h
+
